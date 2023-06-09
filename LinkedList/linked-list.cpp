@@ -102,3 +102,20 @@ class SinglyLinkedList{
             cout<<size<<endl;
         }
 };
+
+int main(){
+    SinglyLinkedList list;
+    list.addFirst(3);
+    list.addFirst(4);
+    list.addFirst(1);
+    list.addFirst(2);
+    list.addFirst(14);
+    list.addFirst(17);
+    list.addLast(6);
+    list.addFirst(20);
+    list.addLast(9);
+    list.get(6);
+    list.display();
+    list.length();
+    return 0;
+}
